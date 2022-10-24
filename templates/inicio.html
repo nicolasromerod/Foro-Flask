@@ -1,0 +1,67 @@
+{% extends 'layout.html' %}
+
+{% block title %} 
+    Inicio
+{% endblock %}
+
+{% block content %}
+
+<h2> Pagina de inicio: </h2>
+<p class="iniciok"> Este blog se describe como un canal de comunicación y participación en temas acerca de la facultad de ingenieria de sistema sede villavicencio, destinado a prestar apoyo a nuevos estudiantes acerca de la enseñanza e investigación sobre las materias . Allí encontrarás información de interés que va desde noticias sobre cursos hasta opiniones de personas que ya vieron esto. </p>
+<p class="iniciop"> Esta pagina es creada para contenido personal. </p>
+
+<tr>
+</tr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="css/style.css"
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maxium-scale=1.0,minium-scale=1.0"> 
+</head>
+
+    <hr>
+        
+            <ol>
+                <nav>          
+                     <li><a href="{{url_for('informacion')}}"> Informacion </a></li> 
+                     <li><a href="{{url_for('contactos')}}"> Sobre Nosotros </a></li>           
+                     <li><a href="{{url_for('post')}}"> Post / Noticias de Interes</a></li> 
+                </nav>
+            </ol>
+        
+    <hr>
+    <h4 class="title">Noticias de Interes:</h4>
+    <div class="container">
+        <div class="card">
+            <img src="../static/pngtree-computer-png-image_1698842.jpg">
+            <h7>¿Se quedó sin batería y necesita que lo llamen? Truco para recibir la llamada desde otro teléfono:</h7>
+            <p> Existe un método para trasladar la comunicación hacia otro número telefónico en momentos en que el usuario no tiene la posibilidad de atender la llamada.            
+                Pese a que los teléfonos móviles actuales representan una notable evolución ante los primeros celulares  </p>
+        <a href="/Post/post.html">Leer mas...</a>
+    </div>
+    <div class="card">
+            <img src="../static/pngtree-computer-png-image_1698842.jpg">
+            <h5>Intel apunta a la sincronización PC-celulares con nueva app</h5>
+            <p> La empresa Intel desarrolló una nueva aplicación que estará disponible en los nuevos PC y que facilitará la sincronización entre computadores y celulares de cualquier marca. Hasta ahora, los usuarios de Windows tenían una carencia por la deficiente integración existente.
+                    </p>
+        <a href="/Post/post1.html">Leer mas...</a>
+    </div>
+    <div class="card">
+            <img src="../static/pngtree-computer-png-image_1698842.jpg">
+            <h6>No se vende como lo esperaba, los problemas de Apple con el iPhone 14</h6>
+            <p> El pasado 7 de septiembre, Apple lanzó al mercado el nuevo iPhone 14, que tiene un costo de inicial de 799 dólares, lo que equivale a 3′516.000 pesos colombianos. Sin embargo, la multinacional tecnológica ha dado a conocer que el dispositivo no se está vendiendo como ellos esperaban, razón por la cual se tomó la decisión de bajar la producción  </p>
+        <a href="/Post/post2.html">Leer mas...</a>
+        </div>
+    </div>
+
+</body>
+</html>
+         
+{% endblock %}
+
+
+

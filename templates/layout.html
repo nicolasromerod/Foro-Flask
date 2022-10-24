@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="/static/pngtree-group-icon-png-image_1796653.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">           
+        <title>{% block title %} {% endblock %}</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+<body>
+	<header>
+        <div class="logo">     
+            <img src = "../static/pngtree-group-icon-png-image_1796653.jpg" alt="Logo de la empresa" class="logo-img"">           
+            <h1> Forum Sistemas </h1>
+        </div>             
+		    <nav>             			    
+				    <a href="{{ url_for('segundo') }}" class="nav-link" >Foros</a></li>
+				    <a href="{{ url_for('agregar') }}" class="nav-link" >Agregar</a></li>
+                    <a href="{{ url_for('inicio') }}"  class="nav-link" >Inicio</a></li>	                  		     
+		    </nav>
+          
+	</header>
+
+	{% block body %}
+	{% endblock %}
+
+    {% block content %}
+    {% endblock%}
+
+    <footer>
+        ©Copyright-2022
+    </footer>    
+    
+</body>  
+</html>
