@@ -52,6 +52,9 @@ p.parrafopost{
 .p.iniciop{
     font-size: 1.2rem;
 }
+h8{
+    font-size: 2.5rem;
+}
 .h9.centrado{
 	font-size: 1.5rem;
     text-align: center;
@@ -135,6 +138,18 @@ h16.soyh16{
 	margin-top: 5vh;
 }
 
+h18.soyh18{
+    font-size: 1.5rem;
+    text-align: center;
+	margin-top: 5vh;
+}
+
+h3.tituloreglas{
+    font-size: 2rem;
+    text-align: center;
+	margin-top: 5vh;
+    color: #3055cf;   
+}
 h5.soyh5{
     font-size: 2rem;
 }
@@ -142,6 +157,22 @@ h5.soyh5{
 h6.soyh6{
     font-size: 1.3rem; 
 }
+h7.soyh7{
+    font-size: 2rem;
+}
+
+h9.centrado{
+   font-size: 1.5rem; 
+}
+
+h10.soy10{
+    font-size: 1.5rem; 
+ }
+
+h17{
+    font-size: 1.5rem; 
+ }
+
 .delete-button{
 	margin: 0;
 	padding: 0;
@@ -159,6 +190,9 @@ h2{
 	font-size: 2rem;
 	text-align: center;
 	margin-top: 5vh;
+}
+h2.tituloagregar{
+    font-size: 2.5rem;
 }
 
 h4{

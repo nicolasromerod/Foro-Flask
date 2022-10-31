@@ -4,9 +4,22 @@
 
 {% block body %}
 
-<h2> Escribe Blog Posts En El Foro </h2>
-
-<p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ad, quam consectetur ullam quaerat repellendus, natus architecto voluptatem itaque harum nostrum veniam vero nihil saepe cupiditate modi amet inventore sequi.</p>
+<h2 class="tituloagregar"> Escribe Experiencias En El Foro: </h2>
+<center>
+    <h3 class="tituloreglas"> !REGLAS! </h3>
+</center>
+     <br>
+<center>
+	<li>    No se debe insultar a ningún usuario bajo ninguna circunstancia ,si es el caso el comentario sera eliminado</li>
+	<br>
+</center>
+<center>
+	<li>	No se debe hacer apología de la violencia, ni de forma verbal ni mostrando insignias, banderas o similares que puedan interpretarse como tales. </li>
+    <br>
+</center>
+<center>
+    <li>	No trasladar a los foros discusiones a nivel personal con otros usuarios.</li>
+</center>
 
 <form class="login-form" action="{{ url_for('crear_post') }}" method="post">
 	<input type="text" name="titulo" placeholder="titulo">

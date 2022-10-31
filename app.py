@@ -23,7 +23,7 @@ def segundo():
 def inicio ():
     
     
-    return render_template('inicio.html')
+    return render_template('index.html')
 
 @app.route("/agregar")
 def agregar():
