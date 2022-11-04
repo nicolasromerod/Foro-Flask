@@ -1,0 +1,82 @@
+{% extends 'layout.html' %}
+
+
+{% block title %}
+
+Sobre Nosotros
+
+{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'css/styles.css')}}">
+    <title>Document</title>
+</head>
+
+<body>
+    <br></br>
+    <h12> Integrantes del Proyecto: </h12>
+    <p class="parrafocontactos"> En este proyecto hacen parte 4 personas: </p>
+
+    <hr>
+
+    <h1 class="soyh1"> Nicolas Romero: </h1>
+    <img src="/static/Nicolas_romero.png" style="width: 200px; height: 200px;">
+    <p class="parrafocontactos"> Correo:nicolas.romerodiaz@campusucc.edu.co </p>
+    <p class="parrafocontactos"> Telefono: 3008024923 </p>
+
+    <hr>
+
+    <b>
+        <h13 class="soyh13"> Wilmer Novoa: </h13>
+    </b>
+    <br>
+    <img src="/static/Wilmer_novoa.jpeg" style="width: 200px; height: 300px;">
+    <p class="parrafocontactos"> Correo: wilmer.novoa@campusucc.edu.co </p>
+    <p class="parrafocontactos"> Telefono: 3132847244 </p>
+
+    </hr>
+
+    <hr>
+
+    <b>
+        <h16 class="soyh16"> Juan Mendez: </h16>
+    </b>
+    <br>
+    <img src="/static/Juan_mendez.jpeg" style="width: 200px; height: 200px;">
+    <p class="parrafocontactos"> Correo: juan.mendezt@campusucc.edu.co </p>
+    <p class="parrafocontactos"> Telefono: 3504256099 </p>
+
+    </hr>
+
+    <hr>
+
+    <b>
+        <h15 class="soyh15"> Carlos Molares </h15>
+    </b>
+    <br>
+    <img src="/static/Carlos_morales.jpeg" style="width: 200px; height: 200px;">
+    <p class="parrafocontactos"> Correo: carlos.moralesrojas@campusucc.edu.co </p>
+    <p class="parrafocontactos"> Telefono: 3102889281 </p>
+    <b>
+        <h15 class="soyh16"> Dayron Bejarano </h15>
+    </b>
+    <br>
+    <img src="/static/dayron.jpg" style="width: 200px; height: 200px;">
+    <p class="parrafocontactos"> Correo: dayronperez.13@gmail.com </p>
+    <p class="parrafocontactos"> Telefono: 3104208919 </p>
+    <b>
+</body>
+
+</html>
+
+</hr>
+
+{% endblock %}

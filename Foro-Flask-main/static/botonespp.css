@@ -1,0 +1,141 @@
+.boton-foros {
+    display: inline-flex;
+    width: 28%;
+    padding: center;
+    height: 27px;
+    justify-items: center;
+    align-items: center;
+    font-weight: 70;
+    transition: .3s ease all;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.boton-foros span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton-foros::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+
+.boton-foros:hover::after {
+    top: 0;
+}
+
+.boton-agregar {
+    display: inline-flex;
+    width: 38%;
+    height: 27px;
+    justify-items: center;
+    align-items: center;
+    font-weight: 100;
+    justify-content: center;
+    padding: center;
+    transition: .3s ease all;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boton-agregar span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton-agregar::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+
+.boton-agregar:hover::after {
+    top: 0;
+}
+
+.boton-inicio {
+    display: inline-flex;
+    width: 27%;
+    height: 27px;
+    justify-items: center;
+    align-items: center;
+    font-weight: 100;
+    justify-content: center;
+    transition: .3s ease all;
+    border: none;
+    cursor: pointer;
+    padding: center;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.boton-inicio span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton-inicio::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+}
+
+.boton-inicio:hover::after {
+    top: 0;
+}
+
+
+.logo {
+    height: 75 px;
+}
+
+html {
+    font-size: 100%;
+}
+
+
+body {
+
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    padding-bottom: 2em;
+    min-height: 90vh;
+    margin: 0;
+
+}
